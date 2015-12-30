@@ -31,3 +31,8 @@ project/boot/
 .cache
 
 .idea/
+/bin/
+/.settings
+.classpath
+.project
+**/*.*~
