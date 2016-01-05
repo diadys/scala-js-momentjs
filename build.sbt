@@ -1,13 +1,17 @@
 lazy val scalaJsMomentJs = project.in(file(".")).
   enablePlugins(ScalaJSPlugin)
 
-name := "Scala.js façade for Moment.js"
+description := "Scala.js façade for Moment.js"
 
-normalizedName := "scala-js-momentjs"
+name := "scala-js-momentjs"
 
 version := "0.1.5-SNAPSHOT"
 
 organization := "io.github.widok"
+
+licenses += "Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0.html")
+
+homepage := Some(url("https://github.com/diadys/scala-js-momentjs"))
 
 scalaVersion := "2.11.7"
 
@@ -18,13 +22,6 @@ jsDependencies +=
   "org.webjars" % "momentjs" % "2.10.6" / "moment-with-locales.min.js"
 
 pomExtra :=
-  <url>https://github.com/widok/scala-js-momentjs</url>
-  <licenses>
-    <license>
-      <name>Apache-2.0</name>
-      <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
-    </license>
-  </licenses>
   <scm>
     <url>git://github.com/widok/widok.git</url>
   </scm>

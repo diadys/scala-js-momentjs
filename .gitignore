@@ -36,3 +36,4 @@ project/boot/
 .classpath
 .project
 **/*.*~
+.cache-main
