@@ -5,7 +5,7 @@ description := "Scala.js façade for Moment.js"
 
 name := "scala-js-momentjs"
 
-version := "0.1.5-SNAPSHOT"
+version := "0.1.7"
 
 organization := "io.github.widok"
 
