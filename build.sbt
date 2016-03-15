@@ -15,12 +15,6 @@ homepage := Some(url("https://github.com/diadys/scala-js-momentjs"))
 
 scalaVersion := "2.11.7"
 
-libraryDependencies +=
-  "org.webjars" % "momentjs" % "2.10.6"
-
-jsDependencies +=
-  "org.webjars" % "momentjs" % "2.10.6" / "moment-with-locales.min.js"
-
 pomExtra :=
   <scm>
     <url>git://github.com/widok/widok.git</url>
