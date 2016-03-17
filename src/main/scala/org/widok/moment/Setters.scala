@@ -13,4 +13,7 @@ trait Setters[T] extends js.Object {
   def subtract(time: Double, unit: String): T = js.native
   def subtract(millis: Int): T = js.native
   def subtract(duration: Duration): T = js.native
+  
+  def month(month: Int): T = js.native
+  def year(year: Int): T = js.native
 }
