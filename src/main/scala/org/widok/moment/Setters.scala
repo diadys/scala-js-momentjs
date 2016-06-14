@@ -16,4 +16,10 @@ trait Setters[T] extends js.Object {
   
   def month(month: Int): T = js.native
   def year(year: Int): T = js.native
+  def hour(hour: Int): T = js.native
+  def minute(hour: Int): T = js.native
+  def date(date: Int): T = js.native
+  def day(day: Int): T = js.native
+  def week(week: Int): T = js.native
+  def isoWeek(week: Int): T = js.native
 }
