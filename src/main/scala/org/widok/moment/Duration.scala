@@ -12,4 +12,8 @@ trait Duration extends js.Object with Getters with Setters[Duration] {
   def humanise(withSuffix: Boolean): String = js.native
   
   def asMinutes(): Int = js.native
+  def asHours(): Int = js.native
+  def asDays(): Int = js.native
+  def asWeeks(): Int = js.native
+  def asMonths(): Int = js.native
 }
