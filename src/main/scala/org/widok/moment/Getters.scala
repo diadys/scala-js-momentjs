@@ -14,6 +14,7 @@ trait Getters extends js.Object {
   def day(): Double = js.native
   def month(): Double = js.native
   def year(): Double = js.native
-  def isoWeekday(): Double = js.native
+  def isoWeekday(): Int = js.native
+  def isoWeekday(newDay: Int): Date = js.native
   
 }
