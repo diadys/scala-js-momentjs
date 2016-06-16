@@ -5,7 +5,7 @@ import scala.scalajs.js.annotation.JSName
 
 @js.native
 trait Date extends js.Object with Getters with Setters[Date] {
-  def clone(): Date = js.native
+  override def clone(): Date = js.native
   def toDate(): js.Date = js.native
   def toISOString(): String = js.native
   def fromNow(): String = js.native
