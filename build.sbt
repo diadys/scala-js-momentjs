@@ -5,7 +5,7 @@ description := "Scala.js façade for Moment.js"
 
 name := "scala-js-momentjs"
 
-version := "0.1.7"
+version := "0.2.1"
 
 organization := "io.github.widok"
 
@@ -13,7 +13,7 @@ licenses += "Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0.htm
 
 homepage := Some(url("https://github.com/diadys/scala-js-momentjs"))
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.3"
 
 pomExtra :=
   <scm>
