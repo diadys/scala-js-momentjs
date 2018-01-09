@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.19")
-=======
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.21")
->>>>>>> Stashed changes
 
 addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "1.1")
 
